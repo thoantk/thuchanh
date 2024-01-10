@@ -1,0 +1,442 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <h3 class="text-3xl text-center mb-8"> Câu 1</h3>
+    <h2 class="text-5xl text-center mb-8">Top destinations </h2>
+    <div class="mb-8 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl ">
+        <div class=" md:flex ">
+            <div class=" md:shrink-0 ">
+                <img class="w-full h-full object-cover cursor-pointer h-48 w-full object-cover md:h-full md:w-48 "
+                    src=" images/buceo-raya-isla-lord-howe.jpg " alt=" Modern building architecture "
+                    onclick="showModal('images/buceo-raya-isla-lord-howe.jpg')">
+            </div>
+            <div class=" p-8 ">
+                <div class=" uppercase tracking-wide text-sm text-indigo-500 font-semibold ">United States</div>
+                <a href=" # "
+                    class=" block mt-1 text-lg leading-tight font-medium text-black hover:underline ">Incredible
+                    accommodation for your team</a>
+                <p class=" mt-2 text-slate-500 ">Looking to take your team away on a retreat to enjoy awesome food and
+                    take in some sunshine? We have a list of places to do just that.</p>
+            </div>
+        </div>
+    </div>
+    <div class="mb-8 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl ">
+        <div class=" md:flex ">
+            <div class=" md:shrink-0 ">
+                <img class="w-full h-full object-cover cursor-pointer h-48 w-full object-cover md:h-full md:w-48 "
+                    src="images/New-Jersey.jpg" alt=" Modern building architecture "
+                    onclick="showModal('images/New-Jersey.jpg')">
+            </div>
+            <div class=" p-8 ">
+                <div class=" uppercase tracking-wide text-sm text-indigo-500 font-semibold ">New Jersey</div>
+                <a href=" # "
+                    class=" block mt-1 text-lg leading-tight font-medium text-black hover:underline ">Incredible
+                    accommodation for your team</a>
+                <p class=" mt-2 text-slate-500 ">Looking to take your team away on a retreat to enjoy awesome food and
+                    take in some sunshine? We have a list of places to do just that.</p>
+            </div>
+        </div>
+    </div>
+    <div class="mb-8 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl ">
+        <div class=" md:flex ">
+            <div class=" md:shrink-0 ">
+                <img class="w-full h-full object-cover cursor-pointer h-48 w-full object-cover md:h-full md:w-48 "
+                    src="images/phi.jpg" alt=" Modern building architecture " onclick="showModal('images/phi.jpg')">
+            </div>
+            <div class=" p-8 ">
+                <div class=" uppercase tracking-wide text-sm text-indigo-500 font-semibold ">Philadelphia</div>
+                <a href=" # "
+                    class=" block mt-1 text-lg leading-tight font-medium text-black hover:underline ">Incredible
+                    accommodation for your team</a>
+                <p class=" mt-2 text-slate-500 ">Looking to take your team away on a retreat to enjoy awesome food and
+                    take in some sunshine? We have a list of places to do just that.</p>
+            </div>
+        </div>
+    </div>
+    <div class="mb-8 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl ">
+        <div class=" md:flex ">
+            <div class=" md:shrink-0 ">
+                <img class="w-full h-full object-cover cursor-pointer h-48 w-full object-cover md:h-full md:w-48 "
+                    src="images/San-Francisco.jpg" alt=" Modern building architecture "
+                    onclick="showModal('images/San-Francisco.jpg')">
+            </div>
+            <div class=" p-8 ">
+                <div class=" uppercase tracking-wide text-sm text-indigo-500 font-semibold ">San Francisco</div>
+                <a href=" # "
+                    class=" block mt-1 text-lg leading-tight font-medium text-black hover:underline ">Incredible
+                    accommodation for your team</a>
+                <p class=" mt-2 text-slate-500 ">Looking to take your team away on a retreat to enjoy awesome food and
+                    take in some sunshine? We have a list of places to do just that.</p>
+            </div>
+        </div>
+    </div>
+    <div class="mb-8 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl ">
+        <div class=" md:flex ">
+            <div class=" md:shrink-0 ">
+                <img class="w-full h-full object-cover cursor-pointer h-48 w-full object-cover md:h-full md:w-48 "
+                    src="images/Virginia.jpg" alt=" Modern building architecture "
+                    onclick="showModal('images/Virginia.jpg')">
+            </div>
+            <div class=" p-8 ">
+                <div class=" uppercase tracking-wide text-sm text-indigo-500 font-semibold ">Virginia</div>
+                <a href=" # "
+                    class=" block mt-1 text-lg leading-tight font-medium text-black hover:underline ">Incredible
+                    accommodation for your team</a>
+                <p class=" mt-2 text-slate-500 ">Looking to take your team away on a retreat to enjoy awesome food and
+                    take in some sunshine? We have a list of places to do just that.</p>
+            </div>
+        </div>
+    </div>
+    <form class="max-w-sm mx-auto">
+        <div class="mb-2">
+            <label for="website-admin" class="block mb-2 text-sm font-medium text-gray-900">Your name</label>
+            <div class="flex mb-2">
+                <span
+                    class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-e-0 border-gray-300 rounded-s-md dark:text-gray-400 dark:border-gray-600">
+                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
+                    </svg>
+                </span>
+                <input type="text" id="website-admin"
+                    class="rounded-none rounded-e-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm p-2.5 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Bonnie Green">
+            </div>
+        </div>
+        <div class="mb-2">
+            <label for="email-address-icon" class="block mb-2 text-sm font-medium text-gray-900">Your
+                Email</label>
+            <div class="relative">
+                <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
+                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                        <path
+                            d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z" />
+                        <path
+                            d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z" />
+                    </svg>
+                </div>
+                <input type="text" id="email-address-icon"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="name@flowbite.com">
+            </div>
+        </div>
+        <div class="mb-2">
+            <label for="destinations" class="block mb-2 text-sm font-medium text-gray-900">điểm đến mong
+                muốn</label>
+            <input type="text" id="destinations"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
+        </div>
+        <div class="mb-2">
+            <label for="date_start" class="block mb-2 text-sm font-medium text-gray-900 ">ngày khởi
+                hành</label>
+            <input type="text" id="date_start"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500">
+        </div>
+        <button type="submit"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+    </form>
+
+    <h3 class="text-3xl text-center mb-8"> câu 2</h3>
+    <!-- Image gird -->
+    <div class="p-20 grid grid-cols-4 gap-5">
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.kindacode.com/wp-content/uploads/2022/07/flower-4.jpeg" alt="Flower"
+            onclick="showModal('https://www.kindacode.com/wp-content/uploads/2022/07/flower-4.jpeg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.kindacode.com/wp-content/uploads/2022/07/flower-3.jpeg" alt="Flower"
+            onclick="showModal('https://www.kindacode.com/wp-content/uploads/2022/07/flower-3.jpeg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.kindacode.com/wp-content/uploads/2022/07/flower-2.jpeg" alt="Flower"
+            onclick="showModal('https://www.kindacode.com/wp-content/uploads/2022/07/flower-2.jpeg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.kindacode.com/wp-content/uploads/2022/07/flower-1.jpeg" alt="Flower"
+            onclick="showModal('https://www.kindacode.com/wp-content/uploads/2022/07/flower-1.jpeg')" />
+    </div>
+
+    <!-- The Modal -->
+    <div id="modal"
+        class="hidden fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center">
+
+        <!-- The close button -->
+        <a class="fixed z-90 top-6 right-8 text-white text-5xl font-bold" href="javascript:void(0)"
+            onclick="closeModal()">&times;</a>
+
+        <!-- A big image will be displayed here -->
+        <img id="modal-img" class="max-w-[800px] max-h-[600px] object-cover" />
+    </div>
+
+    <script>
+        // Get the modal by id
+        var modal = document.getElementById("modal");
+
+        // Get the modal image tag
+        var modalImg = document.getElementById("modal-img");
+
+        // this function is called when a small image is clicked
+        function showModal(src) {
+            modal.classList.remove('hidden');
+            modalImg.src = src;
+        }
+
+        // this function is called when the close button is clicked
+        function closeModal() {
+            modal.classList.add('hidden');
+        }
+    </script>
+
+    <h3 class="text-3xl text-center mb-8"> câu 3</h3>
+    <section class="bg-white dark:bg-gray-900 py-8 lg:py-16 antialiased">
+        <div class="max-w-2xl mx-auto px-4">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">Discussion (20)</h2>
+            </div>
+            <form class="mb-6">
+                <div
+                    class="py-2 px-4 mb-4 bg-white rounded-lg rounded-t-lg border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+                    <label for="comment" class="sr-only">Your comment</label>
+                    <textarea id="comment" rows="6"
+                        class="px-0 w-full text-sm text-gray-900 border-0 focus:ring-0 focus:outline-none dark:text-white dark:placeholder-gray-400 dark:bg-gray-800"
+                        placeholder="Write a comment..." required></textarea>
+                </div>
+                <button type="submit"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Post
+                    comment</button>
+            </form>
+            <article class="p-6 text-base bg-white rounded-lg dark:bg-gray-900">
+                <footer class="flex justify-between items-center mb-2">
+                    <div class="flex items-center">
+                        <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white font-semibold">
+                            <img class="mr-2 w-6 h-6 rounded-full"
+                                src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
+                                alt="Michael Gough">Michael Gough
+                        </p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate datetime="2022-02-08"
+                                title="February 8th, 2022">Feb. 8, 2022</time></p>
+                    </div>
+                    <button id="dropdownComment1Button" data-dropdown-toggle="dropdownComment1"
+                        class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 dark:text-gray-400 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        type="button">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 16 3">
+                            <path
+                                d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" />
+                        </svg>
+                        <span class="sr-only">Comment settings</span>
+                    </button>
+                    <!-- Dropdown menu -->
+                    <div id="dropdownComment1"
+                        class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                        <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                            aria-labelledby="dropdownMenuIconHorizontalButton">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Remove</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Report</a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+                <p class="text-gray-500 dark:text-gray-400">Very straight-to-point article. Really worth time reading.
+                    Thank you! But tools are just the instruments for the UX designers. The knowledge of the design
+                    tools are as important as the creation of the design strategy.</p>
+                <div class="flex items-center mt-4 space-x-4">
+                    <button type="button"
+                        class="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400 font-medium">
+                        <svg class="mr-1.5 w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 20 18">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 5h5M5 8h2m6-3h2m-5 3h6m2-7H2a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h3v5l5-5h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1Z" />
+                        </svg>
+                        Reply
+                    </button>
+                </div>
+            </article>
+            <article class="p-6 mb-3 ml-6 lg:ml-12 text-base bg-white rounded-lg dark:bg-gray-900">
+                <footer class="flex justify-between items-center mb-2">
+                    <div class="flex items-center">
+                        <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white font-semibold">
+                            <img class="mr-2 w-6 h-6 rounded-full"
+                                src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="Jese Leos">Jese
+                            Leos
+                        </p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate datetime="2022-02-12"
+                                title="February 12th, 2022">Feb. 12, 2022</time></p>
+                    </div>
+                    <button id="dropdownComment2Button" data-dropdown-toggle="dropdownComment2"
+                        class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 dark:text-gray-40 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        type="button">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 16 3">
+                            <path
+                                d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" />
+                        </svg>
+                        <span class="sr-only">Comment settings</span>
+                    </button>
+                    <!-- Dropdown menu -->
+                    <div id="dropdownComment2"
+                        class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                        <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                            aria-labelledby="dropdownMenuIconHorizontalButton">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Remove</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Report</a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+                <p class="text-gray-500 dark:text-gray-400">Much appreciated! Glad you liked it ☺️</p>
+                <div class="flex items-center mt-4 space-x-4">
+                    <button type="button"
+                        class="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400 font-medium">
+                        <svg class="mr-1.5 w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 20 18">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 5h5M5 8h2m6-3h2m-5 3h6m2-7H2a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h3v5l5-5h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1Z" />
+                        </svg>
+                        Reply
+                    </button>
+                </div>
+            </article>
+            <article class="p-6 mb-3 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <footer class="flex justify-between items-center mb-2">
+                    <div class="flex items-center">
+                        <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white font-semibold">
+                            <img class="mr-2 w-6 h-6 rounded-full"
+                                src="https://flowbite.com/docs/images/people/profile-picture-3.jpg"
+                                alt="Bonnie Green">Bonnie Green
+                        </p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate datetime="2022-03-12"
+                                title="March 12th, 2022">Mar. 12, 2022</time></p>
+                    </div>
+                    <button id="dropdownComment3Button" data-dropdown-toggle="dropdownComment3"
+                        class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 dark:text-gray-40 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        type="button">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 16 3">
+                            <path
+                                d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" />
+                        </svg>
+                        <span class="sr-only">Comment settings</span>
+                    </button>
+                    <!-- Dropdown menu -->
+                    <div id="dropdownComment3"
+                        class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                        <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                            aria-labelledby="dropdownMenuIconHorizontalButton">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Remove</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Report</a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+                <p class="text-gray-500 dark:text-gray-400">The article covers the essentials, challenges, myths and
+                    stages the UX designer should consider while creating the design strategy.</p>
+                <div class="flex items-center mt-4 space-x-4">
+                    <button type="button"
+                        class="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400 font-medium">
+                        <svg class="mr-1.5 w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 20 18">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 5h5M5 8h2m6-3h2m-5 3h6m2-7H2a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h3v5l5-5h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1Z" />
+                        </svg>
+                        Reply
+                    </button>
+                </div>
+            </article>
+            <article class="p-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <footer class="flex justify-between items-center mb-2">
+                    <div class="flex items-center">
+                        <p class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white font-semibold">
+                            <img class="mr-2 w-6 h-6 rounded-full"
+                                src="https://flowbite.com/docs/images/people/profile-picture-4.jpg"
+                                alt="Helene Engels">Helene Engels
+                        </p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400"><time pubdate datetime="2022-06-23"
+                                title="June 23rd, 2022">Jun. 23, 2022</time></p>
+                    </div>
+                    <button id="dropdownComment4Button" data-dropdown-toggle="dropdownComment4"
+                        class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 dark:text-gray-40 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        type="button">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 16 3">
+                            <path
+                                d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" />
+                        </svg>
+                    </button>
+                    <!-- Dropdown menu -->
+                    <div id="dropdownComment4"
+                        class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                        <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                            aria-labelledby="dropdownMenuIconHorizontalButton">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Edit</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Remove</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Report</a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+                <p class="text-gray-500 dark:text-gray-400">Thanks for sharing this. I do came from the Backend
+                    development and explored some of the tools to design my Side Projects.</p>
+                <div class="flex items-center mt-4 space-x-4">
+                    <button type="button"
+                        class="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400 font-medium">
+                        <svg class="mr-1.5 w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 20 18">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 5h5M5 8h2m6-3h2m-5 3h6m2-7H2a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h3v5l5-5h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1Z" />
+                        </svg>
+                        Reply
+                    </button>
+                </div>
+            </article>
+        </div>
+    </section>
+</body>
+
+</html>
